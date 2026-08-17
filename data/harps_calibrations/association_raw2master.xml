@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VOTABLE version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+  <RESOURCE type="results">
+    <TABLE>
+      <INFO name="DOCUMENTATION" value="http://archive.eso.org/cms/application_support/calselectorInfo.html" />
+      <INFO name="QUERY" value=""><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=HARPS.2022-02-19T00:15:10.071&mode=Raw2Master&responseformat=votable]]></INFO>
+      <FIELD name="ID" datatype="char" ucd="meta.id;meta.main" arraysize="*" />
+      <FIELD name="access_url" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <FIELD name="service_def" datatype="char" ucd="meta.ref" arraysize="*" />
+      <FIELD name="error_message" datatype="char" ucd="meta.code.error" arraysize="*" />
+      <FIELD name="semantics" datatype="char" ucd="meta.code" arraysize="*" />
+      <FIELD name="description" datatype="char" ucd="meta.note" arraysize="*" />
+      <FIELD name="content_type" datatype="char" ucd="meta.code.mime" arraysize="*" />
+      <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+      <FIELD name="eso_category" datatype="char" ucd="meta.code.class;meta.dataset" arraysize="*" />
+      <FIELD name="eso_datalink" datatype="char" ucd="meta.ref.url" arraysize="*" />
+      <DATA>
+        <TABLEDATA>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-19T00:15:10.071]]></TD>
+            <TD />
+            <TD />
+            <TD>#this</TD>
+            <TD>category="SCIENCE_FP" certified="false" complete="true" mode="Raw2Raw" type="main" messages=""</TD>
+            <TD>application/fits</TD>
+            <TD>19937979</TD>
+            <TD>OBJ_FP</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:58.593]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>46080</TD>
+            <TD>STD_TABLE</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:58.593</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:35:01.410]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>8640</TD>
+            <TD>MASK_LUT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:35:01.410</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:25.623]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>8640</TD>
+            <TD>EXT_TABLE</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:25.623</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:32.386]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>31680</TD>
+            <TD>FLUX_TEMPLATE</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:32.386</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:33:58.176]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>1229760</TD>
+            <TD>REL_EFF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:33:58.176</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:30.916]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23040</TD>
+            <TD>CCD_GEOM</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:30.916</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:33:59.773]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>33632640</TD>
+            <TD>HOT_PIXEL_MASK</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:33:59.773</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:33:46.483]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>33577920</TD>
+            <TD>BAD_PIXEL_MASK</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:33:46.483</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:09:14.821]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>20493007</TD>
+            <TD>ORDERDEF_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:09:14.821</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:10:31.894]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>19227223</TD>
+            <TD>ORDERDEF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:10:31.894</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:11:53.128]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23845899</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:11:53.128</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:12:48.421]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23608601</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:12:48.421</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:13:44.424]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23748931</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:13:44.424</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:14:40.417]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23527785</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:14:40.417</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:15:36.430]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23399731</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:15:36.430</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2024-03-21T10:25:03.996]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2413440</TD>
+            <TD>STATIC_WAVE_MATRIX_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2024-03-21T10:25:03.996</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2024-03-21T10:25:05.696]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2381760</TD>
+            <TD>STATIC_WAVE_MATRIX_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2024-03-21T10:25:05.696</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2024-03-21T10:24:58.140]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2413440</TD>
+            <TD>STATIC_DLL_MATRIX_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2024-03-21T10:24:58.140</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2024-03-21T10:25:00.100]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2381760</TD>
+            <TD>STATIC_DLL_MATRIX_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2024-03-21T10:25:00.100</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:30:12.436]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>14344769</TD>
+            <TD>THAR_THAR</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:30:12.436</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:50.373]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2332800</TD>
+            <TD>PIXEL_GEOM_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:50.373</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:51.753]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2301120</TD>
+            <TD>PIXEL_GEOM_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:51.753</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:53.130]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2332800</TD>
+            <TD>PIXEL_SIZE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:53.130</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:54.486]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>2301120</TD>
+            <TD>PIXEL_SIZE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:54.486</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:36:16.600]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>164160</TD>
+            <TD>STATIC_LINE_TABLE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:36:16.600</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:36:17.876]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>152640</TD>
+            <TD>STATIC_LINE_TABLE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:36:17.876</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:36:09.323]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>204480</TD>
+            <TD>REF_LINE_TABLE_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:36:09.323</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:36:10.740]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>192960</TD>
+            <TD>REF_LINE_TABLE_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:36:10.740</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-18T20:33:21.425]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>18360881</TD>
+            <TD>THAR_FP</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-02-18T20:33:21.425</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-05T02:53:58.692]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>18542771</TD>
+            <TD>FLUX</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-05T02:53:58.692</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:26:05.552]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>14684545</TD>
+            <TD>THAR_THAR</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:26:05.552</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2026-08-11T09:34:24.246]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23040</TD>
+            <TD>CCD_GEOM</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2026-08-11T09:34:24.246</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/M.HARPS.2024-03-21T15:01:22.436]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>33632640</TD>
+            <TD>HOT_PIXEL_MASK</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?M.HARPS.2024-03-21T15:01:22.436</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:09:04.906]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>19759279</TD>
+            <TD>ORDERDEF_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:09:04.906</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:10:06.980]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>20286033</TD>
+            <TD>ORDERDEF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:10:06.980</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:11:12.464]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25816373</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:11:12.464</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:12:08.717]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25750851</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:12:08.717</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:13:04.510]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25970733</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:13:04.510</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:14:00.523]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25670773</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:14:00.523</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2018-05-15T14:14:56.506]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>25689621</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2018-05-15T14:14:56.506</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:17:18.012]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>24012471</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:17:18.012</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:18:14.286]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23984337</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:18:14.286</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:19:10.238]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23957637</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:19:10.238</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:20:06.232]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>23930591</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:20:06.232</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:21:02.234]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>24035953</TD>
+            <TD>FLAT</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:21:02.234</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:14:18.203]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>21472931</TD>
+            <TD>ORDERDEF_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:14:18.203</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:15:45.688]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>20329257</TD>
+            <TD>ORDERDEF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:15:45.688</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:47:18.307]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>14426333</TD>
+            <TD>THAR_THAR</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:47:18.307</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:53:24.276]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>21266723</TD>
+            <TD>ORDERDEF_A</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:53:24.276</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://dataportal.eso.org/dataPortal/file/HARPS.2022-03-04T19:54:47.710]]></TD>
+            <TD />
+            <TD />
+            <TD>#calibration</TD>
+            <TD>Calibration file associated to the input raw observation(s): #this (see above) and related siblings (if any)</TD>
+            <TD>application/fits</TD>
+            <TD>19973559</TD>
+            <TD>ORDERDEF_B</TD>
+            <TD>https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?HARPS.2022-03-04T19:54:47.710</TD>
+          </TR>
+          <TR>
+            <TD>ivo://eso.org/ID?HARPS.2022-02-19T00:15:10.071</TD>
+            <TD><![CDATA[https://archive.eso.org/calselector/v1/associations?dp_id=HARPS.2022-02-19T00:15:10.071&mode=Raw2Raw]]></TD>
+            <TD />
+            <TD />
+            <TD>http://archive.eso.org/rdf/datalink/eso#calSelector_raw2raw</TD>
+            <TD>Calibration cascade showing relations among all science and the raw calibration files</TD>
+            <TD>application/xml</TD>
+            <TD>1000000</TD>
+            <TD>ASSOCIATION_TREE</TD>
+            <TD />
+          </TR>
+        </TABLEDATA>
+      </DATA>
+    </TABLE>
+  </RESOURCE>
+</VOTABLE>
