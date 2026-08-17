@@ -1,0 +1,5 @@
+role,dataset_id,filename,bytes,sha256,source_url,notes
+event_processed,ADP.2022-02-20T01:06:53.624,ADP.2022-02-20T01_06_53.624.fits,5264640,ac6a8febc098fe54b250724dc40b777e708f91959291d894ab6fb9ae425a0f3c,https://dataportal.eso.org/dataPortal/file/ADP.2022-02-20T01:06:53.624,archive one-dimensional event product
+event_raw,HARPS.2022-02-19T00:15:10.071,HARPS.2022-02-19T00_15_10.071.fits,35262720,b035536eeb1c815d3af25abb37fa40ec79799cbfe33118b6d088091395fc8130,https://dataportal.eso.org/dataPortal/file/HARPS.2022-02-19T00:15:10.071,original detector exposure
+event_ancillary,ADP.2022-02-20T01:06:53.624,ancillary.tar,6389760,da8b91caa2d18ccc7f1a3af45ab17f0e30df2b33ae65a17af805d82a8e3dd6b5,https://archive.eso.org/datalink/links?ID=ivo://eso.org/ID?ADP.2022-02-20T01:06:53.624,contains e2ds_A and related archive reduction products
+

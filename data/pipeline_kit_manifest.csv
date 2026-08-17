@@ -1,0 +1,14 @@
+record_type,filename,bytes,sha256,posix_cksum,source_url,notes
+analyzed_outer_container,harps-kit-3.6.0.tar.gz,296681727,a2d29b47c6e87d9b9ab1571fad899b830bea4ef55c672450fc667a34db9cd7db,402224271,https://ftp.eso.org/pub/dfs/pipelines/kit_devel/harps-kit-3.6.0.tar.gz,local outer container used for installation
+official_outer_container_checked_2026-08-15,harps-kit-3.6.0.tar.gz,296679593,,1626881061,https://ftp.eso.org/pub/dfs/pipelines/kit_devel/harps-kit-3.6.0.tar.gz,server-side container differed in size from analyzed local artifact
+embedded_payload,harps-3.6.0.tar.gz,29430012,cf282af31a60a5a36f1dabcc00186f5bae207981969e2189679ed1f0afdd799d,,,HARPS recipe source in analyzed outer container
+embedded_payload,harps-calib-3.6.0.tar.gz,234385465,b98a3e677c5e97d73f50c5df83c68d73c69573c0db72711097b852bfa5168889,,,static calibration payload in analyzed outer container
+embedded_payload,harps-config-3.6.0.tar.gz,23802,780a4a0e1c353b4a6da218cc1b456e74699426a5034f75d451a837ecd929b486,,,configuration payload in analyzed outer container
+embedded_dependency,cpl-7.4.tar.gz,2435651,63171467e9deab880842f3e5589c02698c4637cf75106c4aa39affd84ecd8bd4,,,dependency in analyzed outer container
+embedded_dependency,esorex-3.13.11.tar.gz,938318,2aca384e4c6d2010cecc9a51621ce17570d37c07239b9dca62b25aab66aebb12,,,dependency in analyzed outer container
+embedded_dependency,cfitsio-4.6.2.tar.gz,4680361,66fd078cc0bea896b0d44b120d46d6805421a5361d3a5ad84d9f397b1b5de2cb,,,dependency in analyzed outer container
+embedded_dependency,wcslib-8.4.tar.bz2,3261970,960b844426d14a8b53cdeed78258aa9288cded99a7732c0667c64fa6a50126dc,,,dependency in analyzed outer container
+embedded_dependency,erfa-2.0.1.tar.gz,676717,3aae5f93abcd1e9519a4a0a5d6c5c1b70f0b36ca2a15ae4589c5e594f3d8f1c0,,,dependency in analyzed outer container
+embedded_dependency,gsl-2.8.tar.gz,8997136,6a99eeed15632c6354895b1dd542ed5a855c0f15d9ad1326c6fe2b2c9e423190,,,dependency in analyzed outer container
+embedded_dependency,fftw-3.3.10.tar.gz,4144100,56c932549852cddcfafdab3820b0200c7742675be92179e59e6215b340e26467,,,dependency in analyzed outer container
+
