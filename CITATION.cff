@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this research release, please cite it using the metadata below."
+title: "TOI-2458 transient-feature research release"
+type: dataset
+authors:
+  - family-names: Saville
+    given-names: Mark
+    email: mark.saville17@gmail.com
+version: 1.0.0
+date-released: 2026-08-15
+license: CC-BY-4.0
+preferred-citation:
+  type: report
+  title: "A search for transient unresolved optical features in public HARPS spectra: The single-exposure TOI-2458 case"
+  authors:
+    - family-names: Saville
+      given-names: Mark
+      email: mark.saville17@gmail.com
+  year: 2026
+
