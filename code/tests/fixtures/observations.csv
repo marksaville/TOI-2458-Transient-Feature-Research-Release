@@ -1,0 +1,5 @@
+dp_id,obs_id,proposal_id,target_name,instrument_name,obs_title,t_min,t_exptime,em_min,em_max,em_res_power,snr,access_estsize,preview_html,access_url
+ADP.1,OBS.1,099.C-0001(A),HD 123,HARPS,HD 123 spectrum,59000,900,0.00000038,0.00000069,100000,150,2000,https://example.test/preview/1,https://example.test/data/1
+ADP.2,OBS.2,099.C-0001(A),HD 456,HARPS,HD 456 spectrum,59001,900,0.00000038,0.00000069,100000,140,2000,https://example.test/preview/2,https://example.test/data/2
+ADP.3,OBS.3,099.C-0001(A),HD 123,HARPS,HD 123 repeat,59500,900,0.00000038,0.00000069,100000,130,2000,https://example.test/preview/3,https://example.test/data/3
+ADP.4,OBS.4,100.D-0002,HD 999,UVES,HD 999 spectrum,59100,1200,0.00000040,0.00000080,50000,50,3000,https://example.test/preview/4,https://example.test/data/4
