@@ -1,0 +1,3 @@
+target_name,wavelength_barycentric_angstrom,wavelength_topocentric_angstrom,feature_dp_id,e2ds_order,e2ds_pixel,science_fiber_peak_over_local,reference_fiber_value_over_local_max,raw_spatial_profile_correlation,interpretation
+TOI-2458,5761.26,5761.76776,ADP.2022-02-20T01:06:53.624,54,1245,1.194,0.265,0.98255,Present in the original extracted order and shaped like light through the object fibre; not a merge artifact or obvious one-pixel cosmic ray; still only one exposure
+TOI-2458,6432.95,6433.51695,ADP.2022-02-20T01:06:53.624,65,1506,1.105,0.177,,Present in the original extracted order and not coincident with a reference-fibre comb maximum; still only one exposure

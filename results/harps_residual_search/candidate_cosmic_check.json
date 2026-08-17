@@ -1,0 +1,235 @@
+{
+  "created_at": "2026-08-15T22:03:14.454066+00:00",
+  "pipeline": "ESO HARPS 3.6.0",
+  "candidate_exposure": "HARPS.2022-02-19T00:15:10.071",
+  "result": "Both detector features survive reprocessing, including with all explicit cosmic rejection disabled. Detector/reduction artifacts remain favored by the CRH-map neighborhoods and artifact-like comparison event, but are not proven.",
+  "lines": [
+    {
+      "archive_wavelength": 5761.26,
+      "s2d_row_zero_based": 53,
+      "detector_x_zero_based": 1245,
+      "order_label": 9,
+      "official_pipeline_wavelength_at_same_detector_pixel": 5762.863443,
+      "archive_to_official_frame_offset_kms": 83.437,
+      "archive_processed_metrics": {
+        "query_wavelength": 5761.26,
+        "peak_wavelength": 5761.26,
+        "peak_normalized_flux": 1.1942012469650825,
+        "local_baseline": 0.9961697080289418,
+        "local_sigma": 0.0315385958885618,
+        "excess": 0.19803153893614067,
+        "local_z": 6.279022047648017
+      },
+      "official_pipeline_metrics_at_same_detector_pixel": {
+        "no_cosmic_rejection": {
+          "query_wavelength": 5762.86344257609,
+          "peak_wavelength": 5762.859090888632,
+          "peak_normalized_flux": 1.1809145262174483,
+          "local_baseline": 0.9910662348772736,
+          "local_sigma": 0.03374243024050999,
+          "excess": 0.18984829134017467,
+          "local_z": 5.626396498028449
+        },
+        "ksigma_only": {
+          "query_wavelength": 5762.86344257609,
+          "peak_wavelength": 5762.859090888632,
+          "peak_normalized_flux": 1.1851543657898391,
+          "local_baseline": 0.9910662346410785,
+          "local_sigma": 0.03374170214805915,
+          "excess": 0.19408813114876067,
+          "local_z": 5.752173683980101
+        },
+        "ksigma_plus_lacosmic": {
+          "query_wavelength": 5762.86344257609,
+          "peak_wavelength": 5762.859090888632,
+          "peak_normalized_flux": 1.185013036259634,
+          "local_baseline": 0.9909509360495968,
+          "local_sigma": 0.033725884050886584,
+          "excess": 0.19406210021003722,
+          "local_z": 5.754099726999914
+        }
+      },
+      "crh_exact_pixel_flag_count_in_order_aperture": 0,
+      "crh_order_aperture_flags_within_plus_minus_15_x": 2,
+      "crh_flag_coordinates": [
+        {
+          "x": 1243,
+          "y": 556
+        },
+        {
+          "x": 1251,
+          "y": 555
+        }
+      ],
+      "crh_window_percentile_within_same_order": 99.803,
+      "all_epoch_recurrence": {
+        "candidate_wavelength_angstrom": 5761.26,
+        "feature_dp_id": "ADP.2022-02-20T01:06:53.624",
+        "feature_excess": 0.1980315,
+        "comparison_exposures": 87,
+        "feature_rank_by_excess": 1,
+        "recurrence_threshold": 0.0990158,
+        "recurrence_min_local_z": 5.0,
+        "star_frame_recurrence_count": 0,
+        "observer_frame_recurrence_count": 0,
+        "star_frame_recurrence_dp_ids": [],
+        "observer_frame_recurrence_dp_ids": [],
+        "classification": "no_significant_recurrence_in_complete_public_epoch_set"
+      },
+      "comparison_event_shape": null,
+      "interpretation": "detector_or_reduction_artifact_favored_but_not_proven; the feature survives all three current-pipeline extraction settings"
+    },
+    {
+      "archive_wavelength": 6432.95,
+      "s2d_row_zero_based": 64,
+      "detector_x_zero_based": 1506,
+      "order_label": 20,
+      "official_pipeline_wavelength_at_same_detector_pixel": 6434.724733,
+      "archive_to_official_frame_offset_kms": 82.707,
+      "archive_processed_metrics": {
+        "query_wavelength": 6432.95,
+        "peak_wavelength": 6432.95,
+        "peak_normalized_flux": 1.1125598481612455,
+        "local_baseline": 1.0031221296270654,
+        "local_sigma": 0.01095721459683489,
+        "excess": 0.10943771853418016,
+        "local_z": 9.987731605237743
+      },
+      "official_pipeline_metrics_at_same_detector_pixel": {
+        "no_cosmic_rejection": {
+          "query_wavelength": 6434.7247332828965,
+          "peak_wavelength": 6434.728721631084,
+          "peak_normalized_flux": 1.1055707621338058,
+          "local_baseline": 0.9999472976463673,
+          "local_sigma": 0.010365552275954811,
+          "excess": 0.10562346448743853,
+          "local_z": 10.189854016023391
+        },
+        "ksigma_only": {
+          "query_wavelength": 6434.7247332828965,
+          "peak_wavelength": 6434.728721631084,
+          "peak_normalized_flux": 1.1055707621338058,
+          "local_baseline": 0.9999472976463673,
+          "local_sigma": 0.010365552275954811,
+          "excess": 0.10562346448743853,
+          "local_z": 10.189854016023391
+        },
+        "ksigma_plus_lacosmic": {
+          "query_wavelength": 6434.7247332828965,
+          "peak_wavelength": 6434.728721631084,
+          "peak_normalized_flux": 1.1222842619906308,
+          "local_baseline": 0.9996514243683823,
+          "local_sigma": 0.009856467805979506,
+          "excess": 0.12263283762224853,
+          "local_z": 12.441864574229353
+        }
+      },
+      "crh_exact_pixel_flag_count_in_order_aperture": 1,
+      "crh_order_aperture_flags_within_plus_minus_15_x": 19,
+      "crh_flag_coordinates": [
+        {
+          "x": 1493,
+          "y": 1423
+        },
+        {
+          "x": 1498,
+          "y": 1423
+        },
+        {
+          "x": 1500,
+          "y": 1423
+        },
+        {
+          "x": 1501,
+          "y": 1423
+        },
+        {
+          "x": 1502,
+          "y": 1423
+        },
+        {
+          "x": 1503,
+          "y": 1423
+        },
+        {
+          "x": 1504,
+          "y": 1419
+        },
+        {
+          "x": 1504,
+          "y": 1423
+        },
+        {
+          "x": 1506,
+          "y": 1423
+        },
+        {
+          "x": 1507,
+          "y": 1423
+        },
+        {
+          "x": 1508,
+          "y": 1423
+        },
+        {
+          "x": 1509,
+          "y": 1423
+        },
+        {
+          "x": 1510,
+          "y": 1423
+        },
+        {
+          "x": 1512,
+          "y": 1423
+        },
+        {
+          "x": 1513,
+          "y": 1423
+        },
+        {
+          "x": 1515,
+          "y": 1423
+        },
+        {
+          "x": 1516,
+          "y": 1423
+        },
+        {
+          "x": 1518,
+          "y": 1423
+        },
+        {
+          "x": 1521,
+          "y": 1423
+        }
+      ],
+      "crh_window_percentile_within_same_order": 97.196,
+      "all_epoch_recurrence": {
+        "candidate_wavelength_angstrom": 6432.95,
+        "feature_dp_id": "ADP.2022-02-20T01:06:53.624",
+        "feature_excess": 0.1094377,
+        "comparison_exposures": 87,
+        "feature_rank_by_excess": 2,
+        "recurrence_threshold": 0.0547189,
+        "recurrence_min_local_z": 5.0,
+        "star_frame_recurrence_count": 1,
+        "observer_frame_recurrence_count": 1,
+        "star_frame_recurrence_dp_ids": [
+          "ADP.2022-03-09T01:01:43.431"
+        ],
+        "observer_frame_recurrence_dp_ids": [
+          "ADP.2022-03-09T01:01:43.431"
+        ],
+        "classification": "significantly_recurrent"
+      },
+      "comparison_event_shape": {
+        "dp_id": "ADP.2022-03-09T01:01:43.431",
+        "half_max_sample_count": 3,
+        "half_max_width_angstrom": 0.02,
+        "instrumental_fwhm_angstrom": 0.055939
+      },
+      "interpretation": "detector_or_reduction_artifact_favored_but_not_proven; the feature survives all three current-pipeline extraction settings"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "created_at": "2026-08-15T21:57:59.844974+00:00",
+  "pipeline": "ESO HARPS 3.6.0",
+  "raw": "data/harps_candidate_raw/HARPS.2022-02-19T00_15_10.071.fits",
+  "static_calibration_selection": {
+    "CCD_GEOM": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_FAST_CCD_geom_config_2003-01-02.fits",
+    "INST_CONFIG": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS15_reduced_inst_config_2015-05-25.fits",
+    "HOT_PIXEL_MASK": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_2021-12-19_hot_pixels.fits",
+    "BAD_PIXEL_MASK": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_2003-01-01_bad_pixels.fits",
+    "STATIC_WAVE_MATRIX_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_WAVE_MATRIX_A_2015-05-25.fits",
+    "STATIC_WAVE_MATRIX_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_WAVE_MATRIX_B_2015-05-25.fits",
+    "STATIC_DLL_MATRIX_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_DLL_MATRIX_A_2015-05-25.fits",
+    "STATIC_DLL_MATRIX_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_DLL_MATRIX_B_2015-05-25.fits",
+    "STATIC_LINE_TABLE_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_TH_LINE_TABLE_A_2015-05-25.fits",
+    "STATIC_LINE_TABLE_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_STATIC_TH_LINE_TABLE_B_2015-05-25.fits",
+    "REF_LINE_TABLE_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_REF_LINE_TABLE_A_2015-05-25.fits",
+    "REF_LINE_TABLE_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_REF_LINE_TABLE_B_2015-05-25.fits",
+    "PIXEL_GEOM_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_PIXEL_GEOM_A.fits",
+    "PIXEL_GEOM_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_PIXEL_GEOM_B.fits",
+    "PIXEL_SIZE_A": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_PIXEL_SIZE_A.fits",
+    "PIXEL_SIZE_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_PIXEL_SIZE_B.fits",
+    "REL_EFF_B": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_HARPS15_REL_EFF_B.fits",
+    "EXT_TABLE": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_EXTINCTION_TABLE.fits",
+    "STD_TABLE": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_STD_TABLE.fits",
+    "MASK_LUT": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_mask_lut.fits",
+    "FLUX_TEMPLATE": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_FLUX_TEMPLATE.fits",
+    "MASK_TABLE": "data/harps_calibrations/static/share/esopipes/datastatic/harps-3.6.0/HARPS_G2.fits"
+  },
+  "parameters": {
+    "cosmic_detection_sw": 1,
+    "extra_products_sw": true,
+    "lacosmic_sigma_lim": 4.0,
+    "lacosmic_f_lim": 4.0,
+    "lacosmic_max_iter": 5,
+    "ksigma_cosmic": 3.5
+  },
+  "products": {
+    "CRH_MAP": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_crh_map.fits",
+      "bytes": 16859520,
+      "sha256": "f4dc8f74f56434d9c9255ba44facc767051f3c7873bf202b6c037236b9da42b8"
+    },
+    "CCD_CORR_SCIENCE": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_CCD_corrected_science.fits",
+      "bytes": 134300160,
+      "sha256": "4bee768f06600926a54e3c8a8e5d7f5822fd248a6d4544fa978301fd77e42edd"
+    },
+    "CCF_RESIDUALS_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_CCF_RESIDUALS_A.fits",
+      "bytes": 103680,
+      "sha256": "e30fb521d11c30f83e77776325c1575d594ab5fd417af20f2a6177f74747ac0e"
+    },
+    "DRIFT_MATRIX_B": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_DRIFT_MATRIX_B.fits",
+      "bytes": 1238400,
+      "sha256": "b3f80fedfd77d06b07edc5565a85da3831017e214b4067c3cc34a2e803ce85bb"
+    },
+    "S2D_BLAZE_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S2D_BLAZE_A.fits",
+      "bytes": 12335040,
+      "sha256": "ef8f254eebe4b0b97c9b1dbc27538b00c1849a176e9fbe2669e8968a20e918a7"
+    },
+    "S2D_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S2D_A.fits",
+      "bytes": 12335040,
+      "sha256": "6953a9a6fdf54688123e164d679619bf176c245920381a81a589c9116da83257"
+    },
+    "S2D_BLAZE_B": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S2D_BLAZE_B.fits",
+      "bytes": 12162240,
+      "sha256": "6df773db38435c93b188d536150803b18179e88769f269872c4aaea776806495"
+    },
+    "S2D_B": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S2D_B.fits",
+      "bytes": 12162240,
+      "sha256": "8fa29fb29e4b9280b8153e54761187401559d9fe451c1aafc625a743b8d9c90f"
+    },
+    "CCF_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_CCF_A.fits",
+      "bytes": 149760,
+      "sha256": "abb959ed431a7cdc1d349bf2eb9dc579e5c92a9ece851de409c4501b3054fb7d"
+    },
+    "S1D_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S1D_A.fits",
+      "bytes": 8052480,
+      "sha256": "e346c25eb53387d7c0d904b735340e6aabdae3796f14bddfc7a3b60fe7cd9f29"
+    },
+    "S1D_FINAL_A": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S1D_FINAL_A.fits",
+      "bytes": 14250240,
+      "sha256": "e6a1a18a4241395db7619809507a78dedc175f99e1e34937d2fcb4d1759963e7"
+    },
+    "S1D_B": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S1D_B.fits",
+      "bytes": 8040960,
+      "sha256": "1d4155a7a86151f636ee118a2dae1900f96f4d47bb000cc9bc67fa9ca3839424"
+    },
+    "S1D_FINAL_B": {
+      "path": "work/harps_candidate/04_science_lacosmic/HARPS_S1D_FINAL_B.fits",
+      "bytes": 9820800,
+      "sha256": "8e22efe669025a5ed1b95038b50db60af5a1983927b7a7c9a9f2a2abbdf6cffa"
+    }
+  },
+  "no_lacosmic_control_products": {
+    "CCF_RESIDUALS_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_CCF_RESIDUALS_A.fits",
+      "bytes": 103680,
+      "sha256": "f2ae68a50f0a041071308b2d9df011461c174724667927dd9dff00c6306468f8"
+    },
+    "DRIFT_MATRIX_B": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_DRIFT_MATRIX_B.fits",
+      "bytes": 1238400,
+      "sha256": "d7a40da281fdda9f88c282678c2456c856d78f00842eceb3fdfda2307c621aa2"
+    },
+    "S2D_BLAZE_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S2D_BLAZE_A.fits",
+      "bytes": 12335040,
+      "sha256": "62f2ea89cc16ccbb98f6514e515b6812adbb309b2074706a2a596e786c69419c"
+    },
+    "S2D_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S2D_A.fits",
+      "bytes": 12335040,
+      "sha256": "1e6c37fd7534fe0dd65cf6a7d331a37384eb9ca902624fa6563934864de93edc"
+    },
+    "S2D_BLAZE_B": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S2D_BLAZE_B.fits",
+      "bytes": 12162240,
+      "sha256": "b758e35fa34bd9b90a01408316c4c9fb90b2b32aab09a05eb7a39380d0e67297"
+    },
+    "S2D_B": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S2D_B.fits",
+      "bytes": 12162240,
+      "sha256": "464538ee5af501183011153b8afb87baa8837054ad4b92f3f799da7b7908b762"
+    },
+    "CCF_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_CCF_A.fits",
+      "bytes": 149760,
+      "sha256": "dcb463938c663248ae6cabc9ef13880a33153c36c048525e9903c4ccad8b5435"
+    },
+    "S1D_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S1D_A.fits",
+      "bytes": 8052480,
+      "sha256": "2bded33f5e25e91fead71baf4a38701d45714690632dd81a0436b4983ce6b02f"
+    },
+    "S1D_FINAL_A": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S1D_FINAL_A.fits",
+      "bytes": 14250240,
+      "sha256": "89de7d567cbfdbe4bad22a79953356fc64f1593543b7906d5d4958dc04e2433a"
+    },
+    "S1D_B": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S1D_B.fits",
+      "bytes": 8040960,
+      "sha256": "dc5abcac5503dc54283c161cdbea781fd741b204bc5968e4cd0437bc4c9e74b1"
+    },
+    "S1D_FINAL_B": {
+      "path": "work/harps_candidate/04_science_no_lacosmic/HARPS_S1D_FINAL_B.fits",
+      "bytes": 9820800,
+      "sha256": "74224786d6340b73e03997e2a81280be5387252887daa7b55c7a31f11e5cd6de"
+    }
+  },
+  "no_cosmic_rejection_control_products": {
+    "CCF_RESIDUALS_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_CCF_RESIDUALS_A.fits",
+      "bytes": 103680,
+      "sha256": "b35623f377f6dcbc351d93ec6ce83ae5671c1d344566d06f326f860632fb30af"
+    },
+    "DRIFT_MATRIX_B": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_DRIFT_MATRIX_B.fits",
+      "bytes": 1238400,
+      "sha256": "5e6d5f170840486c02cbf58ea519f3852351ad45c92d258f1469e1bf8c09ce97"
+    },
+    "S2D_BLAZE_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S2D_BLAZE_A.fits",
+      "bytes": 12335040,
+      "sha256": "d611b380145a2ed767f577e634830cf67f6e84958a55ae8330d9a6830ffef799"
+    },
+    "S2D_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S2D_A.fits",
+      "bytes": 12335040,
+      "sha256": "9bdac9a947c732a557850c3e8fd919e6fc73131de50d20a84b705fe6556bed74"
+    },
+    "S2D_BLAZE_B": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S2D_BLAZE_B.fits",
+      "bytes": 12162240,
+      "sha256": "ff48c216e721181a2e5285100a27ddb7dac0f19e0c326624d27f2959450032c5"
+    },
+    "S2D_B": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S2D_B.fits",
+      "bytes": 12162240,
+      "sha256": "7199c93c3d10586403822a024441853891fb72e8613c87d9d1e3357044311761"
+    },
+    "CCF_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_CCF_A.fits",
+      "bytes": 149760,
+      "sha256": "a0dff30e9fc93399af8967fc00bfba15a52bf64f0d343fa682667349b3074948"
+    },
+    "S1D_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S1D_A.fits",
+      "bytes": 8052480,
+      "sha256": "154b4ea3f0031d4e7e3f057e08596b66d718a1132a11f458af1a9103be934797"
+    },
+    "S1D_FINAL_A": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S1D_FINAL_A.fits",
+      "bytes": 14250240,
+      "sha256": "7a1eff5448207f4d77d6817db12678e8398fa087c1aa41af1a7ee5e251224490"
+    },
+    "S1D_B": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S1D_B.fits",
+      "bytes": 8040960,
+      "sha256": "ae7470d7f115ffb37f1859efc8dd5a04d078cc178153bf7b6cc740a4b4dafc67"
+    },
+    "S1D_FINAL_B": {
+      "path": "work/harps_candidate/04_science_no_cosmic_rejection/HARPS_S1D_FINAL_B.fits",
+      "bytes": 9820800,
+      "sha256": "0e550fa4e4972eb449860ca010f7960596929ad87007f5bea839720cc209c3bf"
+    }
+  }
+}

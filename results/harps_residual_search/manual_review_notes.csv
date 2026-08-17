@@ -1,0 +1,14 @@
+target_name,wavelength_barycentric_angstrom,manual_disposition,manual_evidence,recommended_action
+TOI-1054,4251.2,likely_stellar_line_profile_change,Broad structured change on top of an ordinary stellar feature; absent as a narrow recurrent line,do_not_promote
+TOI-1054,6109.82,unresolved_one_exposure_spike,Instrument-width bright spike in the 2022-03-17 exposure; absent in two comparison epochs; no UVES atlas sky line nearby,retain_as_low_priority_transient
+TOI-1054,6116.58,unresolved_one_exposure_spike,Instrument-width bright spike in the 2022-03-17 exposure; absent in two comparison epochs; no UVES atlas sky line nearby,retain_as_low_priority_transient
+TOI-1054,6315.46,likely_stellar_absorption_variability,Change lies inside a broad absorption feature and a local feature recurs in both comparison spectra,do_not_promote
+TOI-1054,6493.39,likely_stellar_absorption_variability,Difference follows the shape of a deep stellar absorption line rather than a new emission line,do_not_promote
+TOI-1054,6496.37,likely_stellar_absorption_variability,Difference lies inside a deep absorption complex and a local feature recurs in a comparison spectrum,do_not_promote
+TOI-1233,4360.31,likely_natural_stellar_feature,Broad feature sits on a stellar line complex and recurs in the other downloaded epoch,do_not_promote
+TOI-1233,6575.24,likely_stellar_absorption_variability,Difference follows a broad absorption trough and is not a narrow continuum emission spike,do_not_promote
+TOI-2194,6302.49,likely_stellar_absorption_variability,Difference follows a deep stellar absorption trough and the measured local excess is negative,do_not_promote
+TOI-2194,6307.05,likely_stellar_absorption_variability,Difference is a shallow subfeature within a broad absorption complex,do_not_promote
+TOI-2458,5761.26,unresolved_one_exposure_spike,About 20 percent above the local spectrum in one exposure; absent in four comparisons including one 1.7 hours later; order-level extraction confirms it and raw spatial-profile correlation is 0.983; ESO reports no sky emission line in this region,retain_as_highest_priority_transient
+TOI-2458,6432.95,unresolved_one_exposure_spike,About 11 percent above the local spectrum in the same exposure as the 5761-Angstrom spike; absent in four comparisons; no UVES atlas sky line nearby,retain_as_low_priority_transient
+TOI-282,6614.78,unresolved_one_exposure_spike,About 21 percent above the local spectrum in one exposure; absent in three comparison epochs; no UVES atlas sky line nearby,retain_as_low_priority_transient

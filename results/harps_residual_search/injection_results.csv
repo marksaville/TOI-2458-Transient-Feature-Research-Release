@@ -1,0 +1,31 @@
+target_name,amplitude_fraction_of_continuum,profile,trials,recovered,recovery_fraction
+HD   4915,0.02,unresolved_at_harps_R115000,12,0,0.0
+HD   4915,0.05,unresolved_at_harps_R115000,12,0,0.0
+HD   4915,0.1,unresolved_at_harps_R115000,12,9,0.75
+HD39091,0.02,unresolved_at_harps_R115000,12,0,0.0
+HD39091,0.05,unresolved_at_harps_R115000,12,0,0.0
+HD39091,0.1,unresolved_at_harps_R115000,12,11,0.917
+TOI-1054,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-1054,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-1054,0.1,unresolved_at_harps_R115000,12,5,0.417
+TOI-1203,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-1203,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-1203,0.1,unresolved_at_harps_R115000,12,4,0.333
+TOI-1233,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-1233,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-1233,0.1,unresolved_at_harps_R115000,12,6,0.5
+TOI-2194,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-2194,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-2194,0.1,unresolved_at_harps_R115000,12,6,0.5
+TOI-2458,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-2458,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-2458,0.1,unresolved_at_harps_R115000,12,5,0.417
+TOI-261,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-261,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-261,0.1,unresolved_at_harps_R115000,12,3,0.25
+TOI-282,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-282,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-282,0.1,unresolved_at_harps_R115000,12,3,0.25
+TOI-4399,0.02,unresolved_at_harps_R115000,12,0,0.0
+TOI-4399,0.05,unresolved_at_harps_R115000,12,0,0.0
+TOI-4399,0.1,unresolved_at_harps_R115000,12,7,0.583
