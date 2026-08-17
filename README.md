@@ -16,7 +16,7 @@ article. The manuscript carries no journal affiliation or submission claim.
 
 ## Start here
 
-- [`Mark_Saville_TOI2458_Public_Research_Report.pdf`](Mark_Saville_TOI2458_Public_Research_Report.pdf) is the final paper.
+- [`A_Search_for_Transient_Unresolved_Optical_Features_in_Public_HARPS_Spectra_Mark_Saville.pdf`](A_Search_for_Transient_Unresolved_Optical_Features_in_Public_HARPS_Spectra_Mark_Saville.pdf) is the final paper.
 - `REPRODUCIBILITY.md` is a code-independent replication protocol.
 - `data/` contains compact manifests with public download URLs, file sizes, and
   SHA-256 checksums. Large telescope FITS files are intentionally not copied
